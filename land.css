@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&family=Epilogue:wght@400;500;600;700&family=Josefin+Sans:wght@300;400;500;600;700&family=Montserrat+Alternates:wght@400;600&family=Montserrat:wght@300;500&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,700;1,800&family=Poppins:wght@200;300;400;500;600;700&family=Raleway:wght@300;400;500;600;700;800&display=swap');
+:root{
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+:root{
+    --lightColorRed: #FF3425;
+    --darkColorRed: #BE150E;
+    --lightColorBrown: #D5C5B6;
+    --darkColorRed: #444345;
+}
+.navigate{
+    display: flex;
+    padding: 2% 8%;
+    
+}
+nav{
+ padding-top: 13px;
+ margin-left: 60px;
+
+
+
+ 
+}
+#menu{
+    
+   
+}
+.icons{
+    text-align: right;
+    flex: 1;
+}
+ul{
+    display: flex;
+    
+
+}
+li{
+   list-style: none;
+   float: inline-end;
+   padding-right: 20px;
+   font-size: 13px;
+}
+a{
+    text-decoration: none;
+    color: rgb(163, 154, 154);
+}
+a:hover{
+    color: #BE150E;
+}
+.login-btn{
+    width: 40px;
+    border: 2px solid transparent;
+    border-color: #444345;
+    padding: 6px 13px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+.login-btn:hover{
+
+    
+}
+.signup-btn{
+    width: 50px;
+    background-color: #BE150E;
+    color: #fff;
+    padding: 8px 13px;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: .5s;
+}
+.signup-btn:hover{
+    background-color: transparent;
+    border-color: #444345;
+    border: 2px solid ;
+}
+.navi{
+    display: flex;
+    padding-right: 30px;
+}
+
+.navi h3{
+    padding-top: 12px;
+    background-image: linear-gradient(90deg, #BE150E, #1f1d1b);
+    -webkit-background-clip: text;
+    font-size: 15px;
+    -webkit-text-fill-color:transparent;
+}
+
+.input{
+    padding-left: 8%;
+    padding-top: 30px;
+}
+#text{
+    width: 300px;
+    padding: 10px;
+    border-radius: 30px;
+    border-color: #BE150E;
+    outline: none;
+    padding-left: 20px;
+    font-weight: bold;
+}
+#search{
+    padding: 10px;
+    border-radius: 30px;
+    position: relative;
+    left: -108px;
+    font-weight: bold;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    background-color: #BE150E;
+    color: #fff;
+    box-shadow: 0px 0px 2px #000, 0px 0px 6px #858585;
+    width: 100px;
+    cursor: pointer;
+
+}
+@media(max-width:700px){
+    .navi h3{
+        font-size: 14px;
+    }
+    .navi img{
+        width: 50px;
+    }
+    ul{
+        display: block;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-top: 40px;
+    }
+    li{
+        padding-bottom: 20px;
+    }
+    a{
+        color: #fff;
+        font-size: 20px;
+        
+    }
+    .login-btn{
+        background-color: #fff;
+        color: #BE150E;
+        font-weight: 500;
+        width: 100%;
+        
+    }
+    .signup-btn{
+        background-color: #b98551;
+    }
+    nav{
+        width: 250px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #BE150E;
+        z-index: 999;
+        transition: 2s;
+        display: none;
+        
+        
+        
+    }
+    #close{
+        color: #fff;
+        font-size: 20px;
+        margin-bottom: 20px;
+        
+    }
+    #text{
+        width: 200px;
+        border-radius: 8px;
+
+    }
+    #search{
+        position: relative;
+        display: block;
+        left: 0;
+        margin-top: 10px;
+        max-width: 100px;
+        font-size: 13px;
+        border-radius: 8px;
+    }
+}
+@media(min-width:700px){
+    .icons{
+        display: none;
+    }
+    #close{
+        display: none;
+    }
+    
+    
+}
+.landing-page{
+    background-image: url('delman22.png');
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+}
+.texts h1{
+    padding-left: 8%;
+    padding-top: 6%;
+    padding-bottom: 15px;
+    font-size: 45px;
+    background-image: linear-gradient(30deg, #BE150E, #22201f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    font-family: 'poppins', sans-serif;
+
+}
+.texts p{
+    padding-left: 8%;
+    font-size: 15px;
+    opacity: 0.8;
+    color: #444345;
+}
+@media(max-width:700px){
+    .texts h1{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    .texts p{
+        font-size: 14px;
+    }
+}
+
+

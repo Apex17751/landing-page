@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="land.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+</head>
+<body>
+    <div class="landing-page">
+        <div class="navigate">
+            <div class="navi">
+                <h3>Food<span>Fury</span></h3>
+            </div>
+            <nav id="navBar">
+                <ul>
+                    <i class="fa fa-times" id="close" onclick="hideMenu()"></i>
+                    <li><a href="#">Explore</a></li>
+                    <li><a href="#">Collections</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#" class="login-btn">Log in</a></li>
+                    <li><a href="#" class="signup-btn">Sign Up</a></li>
+                </ul>
+                
+            </nav>
+            <div class="icons">
+                <i class="fa fa-bars" id="menu" onclick="showMenu()"></i>
+               
+            </div>
+        </div>
+        <div class="texts">
+            <h1>Swift Foods <br> Delivery Service</h1>
+            <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Hic sint recusandae <br> perspiciatis provident, incidunt velit!</p>
+            
+        </div>
+
+        <div class="input">
+            <input type="text" name="" id="text" placeholder=" E.g Lagos, Nigeria">
+            <input type="submit" value="Find Food" id="search">
+        </div>
+    </div>
+    
+</body>
+</html>
+
+<script>
+    let navBar = document.getElementById('navBar');
+   
+
+    function showMenu(){
+        navBar.style.display = 'block';
+        navBar.style.left = '70px';
+    }
+    function hideMenu(){
+        navBar.style.display = 'none';
+    }
+</script>
